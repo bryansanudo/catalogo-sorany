@@ -23,7 +23,7 @@ const AdminOnlyRoute = ({ children }) => {
 export const AdminOnlyLink = ({ children }) => {
   const userEmail = useSelector(selectEmail);
 
-  if (userEmail === "bryan@gmail.com") {
+  if (userEmail === "sorany@gmail.com") {
     return children;
   }
   return null;
