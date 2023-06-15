@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { doc, getDoc } from "firebase/firestore";
 import { db } from "@/configFirebase";
 import spinnerImg from "@/assets/spinner.jpg";
-import Section from "@/components/common/section";
+import Section from "@/components/common/Section";
 const ProductDetails = () => {
   const { id } = useParams();
 
